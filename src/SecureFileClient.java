@@ -11,9 +11,7 @@ import java.security.MessageDigest;
 import java.security.SecureRandom;
 import java.util.Scanner;
 
-
 public class SecureFileClient {
-
     private static final byte[] AES_KEY = hexToBytes("00112233445566778899AABBCCDDEEFF");
 
     public static void main(String[] args) {
